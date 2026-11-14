@@ -298,8 +298,9 @@ tested on Linux Mint:
    Newer npm versions skip a package's setup script unless it's allowed. Without
    `--allow-scripts`, Claude Code installs but its setup doesn't run. Check it with
    `claude --version`.
-3. Run `claude` once and sign in with your Claude account. Then quit it; it doesn't need to
-   trust your home folder for SolidCraft to use it.
+3. Run `claude` once and sign in. Claude Code needs a Pro, Max, Team or Enterprise plan, or an
+   Anthropic Console account; the free Claude plan doesn't include it. Then quit it; it doesn't
+   need to trust your home folder for SolidCraft to use it.
 4. Run the `flatpak override` command above. **Preferences → Assistant** shows the same command
    with a **Copy** button.
 5. Quit SolidCraft completely and start it again. **Preferences → Assistant → Agents** then lists
